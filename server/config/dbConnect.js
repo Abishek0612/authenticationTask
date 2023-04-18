@@ -12,3 +12,7 @@ const dbConnect = async() => {
 }
 
 export default dbConnect;
+
+
+//kjShPaAg9UHTvxnS
+// 49.37.209.29/32

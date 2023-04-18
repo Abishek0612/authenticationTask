@@ -3,6 +3,7 @@ import dbConnect  from "./config/dbConnect.js";
 import userRoutes from "./routes/usersRoutes.js";
 import dotenv from "dotenv";
 dotenv.config();
+import path from 'path';
 import cors from 'cors'
 //db connection
 dbConnect()
