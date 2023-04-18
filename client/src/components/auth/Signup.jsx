@@ -49,8 +49,9 @@ export default function Signup() {
                     <FormInput id="name" name='name' label='Name' value={name} placeholder='Name' onChange={(e) => setName(e.target.value)} required />
                     <FormInput id="email" name="email" label='Email' value={email} placeholder='abi@gmail.com' onChange={(e) => setEmail(e.target.value)} required />
                     <FormInput id="password" type='password' name="password" label='Password' value={password} placeholder='********' onChange={(e) => setPassword(e.target.value)} required />
+                    <p>Password must be minimum 6 character</p>
                     <Submit value='Sign up' />
-                    <p>Alrady have an account please <span style={{ color: 'blue' }}><Link to='/signin' className='link'>Signin</Link> </span></p>
+                    <p>Alrady have an account please <span style={{ color: 'blue' }}><Link to='/signin' className='link'>Sign in</Link> </span></p>
                 </form>
             </Container>
         </FormContainer>
